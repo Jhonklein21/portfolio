@@ -18,9 +18,7 @@ const Introduction = () => {
         />
 
         <div className="flex flex-col justify-center max-w-md">
-          <h1
-            className="mb-5 text-2xl leading-tight text-center md:text-center 
-            md:text-4xl md:mb-10"
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-center md:text-4xl md:mb-10"
           >
             Si puedes pensarlo,
             <TypeAnimation
