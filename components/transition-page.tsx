@@ -1,6 +1,6 @@
 "use client";
 
-import { transitionVariantsPage } from "@/utils/motion-transition";
+import { transitionVariantsPage } from "@/utils/motion-transitions";
 import { AnimatePresence, motion } from "framer-motion";
 
 const TransitionPage = () => {
