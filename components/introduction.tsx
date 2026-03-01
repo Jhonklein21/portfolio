@@ -18,8 +18,7 @@ const Introduction = () => {
         />
 
         <div className="flex flex-col justify-center max-w-md">
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-center md:text-4xl md:mb-10"
-          >
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-center md:text-4xl md:mb-10">
             Si puedes pensarlo,
             <TypeAnimation
               sequence={[
@@ -45,17 +44,24 @@ const Introduction = () => {
             accesibles.
           </p>
 
-          <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
+          <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <Link
-              href="/projects"
+              href="https://github.com/Jhonklein21"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md 
-              w-fit rounded-xl shadow-xl hover:shadow-white/50">
+              w-fit rounded-xl shadow-xl hover:shadow-white/50"
+            >
               Ver proyectos
             </Link>
+
             <Link
-              href="/contact"
+              href="https://www.linkedin.com/in/jhonklein"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md 
-              w-fit rounded-xl shadow-xl hover:shadow-secondary">
+              w-fit rounded-xl shadow-xl hover:shadow-secondary"
+            >
               Contacta conmigo
             </Link>
           </div>

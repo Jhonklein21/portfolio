@@ -17,20 +17,29 @@ const ServicesPage = () => {
           <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
             Mis <span className="font-bold text-secondary">servicios.</span>
           </h1>
-          <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de 
-            desarrollo web frontend especializados en la
+          <p className="mb-3 text-xl text-gray-300">
+            Ofrezco servicios de desarrollo web frontend especializados en la
             creación de sitios web y aplicaciones atractivas y funcionales.
             Utilizando las úlitmas tecnologías, como HTML, CSS y Javascript
             diseño interfaces de usuario intuitivas y responsivas que reflejan
             la identidad de marca de mis clientes y mejoran su presencia en
             línea.
-            </p>
-            <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+          </p>
+          <a
+            href="https://www.linkedin.com/in/jhonklein"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
+              Contacta conmigo
+            </button>
+          </a>
         </div>
 
         {/* SLIDER */}
         <div>
-            <SliderServices />
+          <SliderServices />
         </div>
       </div>
     </>
