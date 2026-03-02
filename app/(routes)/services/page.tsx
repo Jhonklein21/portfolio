@@ -18,7 +18,7 @@ const ServicesPage = () => {
             Mis <span className="font-bold text-secondary">servicios.</span>
           </h1>
           <p className="mb-3 text-xl text-gray-300">
-            Ofrezco servicios de desarrollo web frontend especializados en la
+            Ofrezco servicios de desarrollo web fullstack especializados en la
             creación de sitios web y aplicaciones atractivas y funcionales.
             Utilizando las úlitmas tecnologías, como HTML, CSS y Javascript
             diseño interfaces de usuario intuitivas y responsivas que reflejan
